@@ -19,4 +19,4 @@ const addsUpToK = (arr, k) => {
     return false;
 }
 
-console.log(addsUpToK([15,10,3,7,64,12,2,75], 100));
+console.log(addsUpToK([15,10,3,7,64,12,25,75], 100));
