@@ -20,3 +20,5 @@ const addsUpToK = (arr, k) => {
 }
 
 console.log(addsUpToK([15,10,3,7,64,12,25,75], 100));
+
+
