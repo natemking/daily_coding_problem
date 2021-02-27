@@ -8,7 +8,7 @@ const productOfAllButI = (arr) => {
     for (let i = 0; i < arr.length; i++) {
         let newArr = arr.slice();
         newArr.splice(i, 1)
-        finalArr.push(newArr.reduce((a,c) => { return a * c}));
+        finalArr.push(newArr.reduce((a,c) => { return a * c }));
     }
     return finalArr;
 }
