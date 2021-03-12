@@ -29,8 +29,8 @@ function sumStrings(a, b) {
     //return (BigInt(a) + BigInt(b)).toString();
 }
 
-console.log(sumStrings('712569312664357328695151392', '8100824045303269669937'))
-console.log(sumStrings('5','5'));
-console.log(sumStrings('', '10'));
-console.log(sumStrings('60', '160'));
-console.log(sumStrings('00103', '08567'));
+console.log(sumStrings('712569312664357328695151392', '8100824045303269669937')) // 712577413488402631964821329
+console.log(sumStrings('5','5')); // 10
+console.log(sumStrings('', '10')); // 10
+console.log(sumStrings('60', '160')); // 220
+console.log(sumStrings('00103', '08567')); // 8670
