@@ -14,8 +14,8 @@ function rot13(message) {
             final.push(cipher[char]);
         }
     });
-
     return final.join('');
+
 }
 
 console.log(rot13("10+2 is twelve."))
